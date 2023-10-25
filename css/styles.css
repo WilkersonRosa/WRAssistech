@@ -57,6 +57,12 @@ body{
   justify-content: center;
 }
 
+#video-content .video{
+    border-radius: 15px;
+    width: 700px;
+    height: 370px;
+}
+
 /* sessão 1 da página */
 #segment1 {
     display: flex;
