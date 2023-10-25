@@ -112,7 +112,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     /* font-size: 1rem; */
     padding-block: 1rem;
     padding-inline: 0.5rem;
@@ -196,5 +196,58 @@ body{
     padding-top: 5px;
 }
 
-/* Isso é so um teste de edicao via vscode.dev usando o tablet*/
-/* Essa edição foi feita através do site do github usando o tablet*/
+/* Responsividade */
+
+@media (max-width:768px){
+      
+    #header img{
+        max-width: 90vw;
+    }
+
+    #master {
+        justify-content: center;
+    }
+
+    #video-content .video{
+        max-width: 80vw;
+        max-height: 60vw;
+        padding: 0;
+        margin: 0;
+    }
+
+    #segment1 {
+        flex-direction: column;
+        max-width: 95vw;
+    }
+
+    #segment2 {
+        flex-direction: column;
+        max-width: 95vw;
+    }
+
+    #segment2 h3{
+        margin-left: 0;
+    }
+
+    #segment3 {
+        flex-direction: column;
+    }
+    
+    #service-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #button-container p{
+        font-size: 14pt;
+        text-align: center;
+    }
+}
+
+@media (min-width:501px) {
+    #button-container p{
+        font-size: 14pt;
+    }
+}
