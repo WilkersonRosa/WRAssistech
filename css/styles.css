@@ -52,3 +52,53 @@ nav a img{
 nav a p{
     text-align: center;
 }
+.secgeral {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgsecA {
+    background-image: linear-gradient(to top, #aaa, #fff 15%);
+}
+
+.bgsecB {
+    background-image: linear-gradient(to top, #222, #444 15%);
+    color: #fff;
+}
+
+.seccontent h2, .seccontent p{
+    margin: 1rem 5px;
+}
+
+.seccontent h2 {
+    font-size: 20pt;
+}
+
+.seccontent p {
+    font-size: 15pt;
+}
+
+blockquote {
+    font-size: 15pt;
+    color: #00d5ff;
+    font-weight: bolder;
+    margin-left: 3rem;
+}
+
+/** Section 1 **/
+
+#sec1 img{
+    max-width: 100vw;
+}
+
+/** Section 2 **/
+
+#sec2 img{
+    max-width: 100vw;
+}
+
+
